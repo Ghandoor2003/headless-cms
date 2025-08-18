@@ -1,0 +1,39 @@
+{
+  "name": "headless-cms-api",
+  "version": "0.1.0",
+  "description": "this is my take on a headless cms",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "headless",
+    "cms",
+    "personal",
+    "project",
+    "express",
+    "api"
+  ],
+  "author": "Ghedira Mhamed",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "module-alias": "^2.2.3",
+    "mongoose": "^8.17.1",
+    "morgan": "^1.10.1",
+    "nanoid": "^5.1.5",
+    "slugify": "^1.6.6",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "_moduleAliases": {
+    "@": "src"
+  }
+}
